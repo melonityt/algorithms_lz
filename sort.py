@@ -1,7 +1,7 @@
 import random
 
 start_list = []                #создаём рандомный список
-for i in range(0,10):
+for i in range(0,100):
     start_list.append(random.randint(0, 1_000_000))
 print(f'Начальный список {start_list}')
 comparison_p = 0
